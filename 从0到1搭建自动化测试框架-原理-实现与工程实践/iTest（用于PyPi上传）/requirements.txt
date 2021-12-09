@@ -1,0 +1,3 @@
+selenium==3.141.0
+concurrent_log_handler==0.9.19
+PyYAML==5.4.1

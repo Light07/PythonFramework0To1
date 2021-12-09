@@ -18,3 +18,10 @@ pip install iTesting2
 
 如您在练习过程中有任何问题，欢迎关注微信公众号 iTesting， 并留下您的微信号，作者会第一时间联系您解决。
 
+## 注意：
+1.  由于PyPI的框架名称iTesting 已被本人拉勾教育专栏<测试开发入门与实战>占用， 故读者下载iTesting框架时可使用
+pip install iTesting2 的方式来下载（https://pypi.org/project/iTesting2/）。
+
+2. 本框架同时支持Web和API，但由于本书聚焦于自动化测试框架创建本身，故框架源码本身不包括实例化浏览器驱动Webdriver以及API请求库Requests，读者朋友在使用时，可参考书中章节建立Pages页面文件夹并初始化之即可。
+
+3. 部分读者朋友将此框架误认为是Cypress框架的延续，在此澄清下，本框架基于Python语言，出于技术栈的统一性，涉及Web自动化测试部分使用WebDriver而非Cypress。 读者如果使用JavaScript为主要编程语言，则可参考本人另外一本书籍 **<[前端自动化测试框架 – Cypress从入门到精通](https://item.jd.com/12647091.html)>** 。
